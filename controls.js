@@ -23,7 +23,6 @@ class Controls{
                 break;
             }
         console.table(this,"down")
-
         }
         document.onkeyup = (event) => {
           switch (event.key) {
@@ -40,7 +39,7 @@ class Controls{
               this.reverse = false;
               break;
           }
-          console.table(this);
+          // console.table(this);// this is an argument here
         };
     }
 }
